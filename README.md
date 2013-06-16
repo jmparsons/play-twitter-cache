@@ -1,7 +1,7 @@
 # play-twitter-cache
-This is an example [Play 2.1.x][play] application of how to cache Twitter results to prevent from hitting the [rate limit][twitter-limit].
+This is an example [Play 2.1.x][play] application of how to cache asynchronously loaded [Twitter api v1.1][twitter-api] results to prevent from hitting the [rate limit][twitter-limit].
 
-There are also examples of how to limit the tweets or remap the values into a new json object.
+There are examples of how to limit the tweets or remap the values into a new json object.
 
 # Configuration
 Add your Twitter applications Consumer Key / Secret and Access Token / Secret to the `application.conf` file.
@@ -20,3 +20,4 @@ MIT: <http://jmparsons.mit-license.org> - [@jmparsons](http://twitter.com/jmpars
 
 [play]: http://www.playframework.org/
 [twitter-limit]: https://dev.twitter.com/docs/rate-limiting/1.1
+[twitter-api]: https://dev.twitter.com/docs/api/1.1
